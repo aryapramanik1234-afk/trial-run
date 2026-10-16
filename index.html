@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f1e8">
+  <meta name="description" content="Monsoon & Mug is a fictional Kolkata neighbourhood café for freshly brewed coffee, warm pastries and unhurried conversations.">
+  <title>Monsoon &amp; Mug — Slow mornings. Good coffee.</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23273f34'/%3E%3Cpath d='M18 29h24v13a8 8 0 0 1-8 8h-8a8 8 0 0 1-8-8V29Zm24 3h4a6 6 0 0 1 0 12h-5' fill='none' stroke='%23f5f1e8' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M25 23c-3-4 3-5 0-9m10 9c-3-4 3-5 0-9' fill='none' stroke='%23d49776' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#home" aria-label="Monsoon and Mug home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none">
+            <path d="M11 21h22v11a8 8 0 0 1-8 8h-6a8 8 0 0 1-8-8V21Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M33 24h3.5a5.5 5.5 0 0 1 0 11H33M17 15c-2-2.5 2-3.4 0-6m9 6c-2-2.5 2-3.4 0-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-name">Monsoon <span>&amp; Mug</span></span>
+          <span class="brand-meta">A little corner of Kolkata</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="#home" aria-current="page">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit Us</a>
+        <a class="nav-mobile-cta" href="#menu">Explore Menu <span aria-hidden="true">↗</span></a>
+      </nav>
+
+      <a class="button button--small header-cta" href="#menu">Explore Menu <span aria-hidden="true">↗</span></a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Coffee, comfort &amp; a slower pace</p>
+          <h1 id="hero-title">Slow mornings.<br><em>Good coffee.</em></h1>
+          <p class="hero-intro">Your neighbourhood corner for freshly brewed coffee, warm pastries, and unhurried conversations.</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#menu">Explore our menu <span aria-hidden="true">↗</span></a>
+            <a class="button button--text" href="#visit">Find us <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-footnote">
+            <span class="footnote-rule" aria-hidden="true"></span>
+            <p>Take your time. There’s always room for one more cup.</p>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="hero-photo-shell">
+            <img src="images/hero-monsoon-mug.jpg" data-fallback="images/gallery-table.jpg" alt="A cappuccino and croissant beside a rain-speckled café window" width="1264" height="848" fetchpriority="high" decoding="async">
+            <div class="hero-photo-caption">
+              <span class="caption-flower" aria-hidden="true">✳</span>
+              <span>Good things take a little time</span>
+            </div>
+          </div>
+          <span class="hero-side-note" aria-hidden="true">KOLKATA · TAKE IT SLOW</span>
+        </div>
+      </div>
+      <div class="hero-bottom-line" aria-hidden="true"><span></span><span>Scroll a little</span><span></span></div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+      <div class="shell">
+        <div class="section-heading menu-heading" data-reveal>
+          <div>
+            <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> The little menu</p>
+            <h2 id="menu-title">A few favourites,<br><em>made with care.</em></h2>
+          </div>
+          <div class="section-heading-aside">
+            <p>For a slow start, a mid-day pause, or the walk back home. Find something lovely, then stay awhile.</p>
+            <a class="text-link" href="#story">Discover our story <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <p class="menu-demo-note">Sample menu · all prices are fictional demo prices</p>
+        <div class="menu-grid">
+          <article class="menu-card" data-reveal>
+            <div class="menu-card-media">
+              <img src="images/menu-cappuccino.jpg" data-fallback="images/gallery-table.jpg" alt="A cup of cappuccino served with a small sandwich" width="500" height="334" loading="lazy" decoding="async">
+              <span class="menu-category">Coffee</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title"><h3>Cappuccino</h3><span class="menu-price">₹149</span></div>
+              <p>Espresso, silky steamed milk and a soft dusting of cocoa.</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-reveal>
+            <div class="menu-card-media">
+              <img src="images/menu-latte.jpg" data-fallback="images/hero-monsoon-mug.jpg" alt="A chocolate-topped pastry beside a small cup of coffee" width="500" height="749" loading="lazy" decoding="async">
+              <span class="menu-category">Coffee</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title"><h3>Café Latte</h3><span class="menu-price">₹159</span></div>
+              <p>A double shot softened with velvety milk. Made for lingering.</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-reveal>
+            <div class="menu-card-media">
+              <img src="images/menu-cold-coffee.jpg" data-fallback="images/gallery-table.jpg" alt="Cold coffee poured over ice in a clear glass" width="500" height="750" loading="lazy" decoding="async">
+              <span class="menu-category">Coffee</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title"><h3>Cold Coffee</h3><span class="menu-price">₹179</span></div>
+              <p>Chilled coffee, milk and just enough sweetness over ice.</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-reveal>
+            <div class="menu-card-media">
+              <img src="images/menu-croissant.jpg" data-fallback="images/gallery-pastries.jpg" alt="Golden, flaky croissants fresh from the bakery" width="500" height="750" loading="lazy" decoding="async">
+              <span class="menu-category">From the oven</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title"><h3>Classic Croissant</h3><span class="menu-price">₹129</span></div>
+              <p>Buttery, flaky layers with a beautifully golden finish.</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-reveal>
+            <div class="menu-card-media">
+              <img src="images/menu-brownie.jpg" data-fallback="images/gallery-table.jpg" alt="A rich chocolate brownie served with coffee and a grilled sandwich" width="500" height="750" loading="lazy" decoding="async">
+              <span class="menu-category">Something sweet</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title"><h3>Chocolate Brownie</h3><span class="menu-price">₹119</span></div>
+              <p>Deep cocoa, a tender middle and a delicate crisp top.</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-reveal>
+            <div class="menu-card-media">
+              <img src="images/menu-sandwich.jpg" data-fallback="images/gallery-table.jpg" alt="Golden grilled cheese sandwiches served with coffee" width="500" height="333" loading="lazy" decoding="async">
+              <span class="menu-category">From the kitchen</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title"><h3>Grilled Sandwich</h3><span class="menu-price">₹199</span></div>
+              <p>Toasted sourdough, melty cheese and a handful of garden greens.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section section-pad" id="story" aria-labelledby="story-title">
+      <div class="shell story-grid">
+        <div class="story-visual" data-reveal>
+          <figure class="story-photo">
+            <img src="images/story-interior.jpg" data-fallback="images/hero-monsoon-mug.jpg" alt="A welcoming café interior with timber, forest-green walls and a rain-lit window" width="928" height="1152" loading="lazy" decoding="async">
+          </figure>
+          <div class="story-note">
+            <span class="story-note-icon" aria-hidden="true">✳</span>
+            <p>A good cup is even better<br>when there’s time to enjoy it.</p>
+          </div>
+          <span class="story-image-label" aria-hidden="true">A SEAT SAVED FOR YOU</span>
+        </div>
+
+        <div class="story-copy" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> A little about us</p>
+          <h2 id="story-title">A table, a cup,<br><em>and time to spare.</em></h2>
+          <p>Monsoon &amp; Mug began with a simple thought: the best cups are the ones you have time to enjoy. We bring thoughtfully brewed coffee, warm pastries and easygoing plates together in a space that feels like your favourite corner of the neighbourhood.</p>
+          <p>Come in from the rain, catch up with a friend, or bring a book and stay a while. There’s always room for one more cup.</p>
+          <a class="text-link story-link" href="#visit">Come by and say hello <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery" aria-labelledby="gallery-title">
+      <div class="shell">
+        <div class="section-heading gallery-heading" data-reveal>
+          <div>
+            <p class="eyebrow eyebrow--light"><span class="eyebrow-mark" aria-hidden="true"></span> A peek inside</p>
+            <h2 id="gallery-title">Little moments,<br><em>made to savour.</em></h2>
+          </div>
+          <p class="gallery-intro">The first pour of the day. A pastry still warm. A favourite seat by the window.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item--table" data-reveal>
+            <img src="images/gallery-table.jpg" data-fallback="images/menu-cappuccino.jpg" alt="An overhead café table with cappuccino, croissant, brownie and grilled sandwich" width="1200" height="896" loading="lazy" decoding="async">
+            <figcaption><span>01 / THE TABLE</span><strong>A little of everything</strong></figcaption>
+          </figure>
+          <figure class="gallery-item gallery-item--interior" data-reveal>
+            <img src="images/gallery-interior-corner.jpg" data-fallback="images/story-interior.jpg" alt="A quiet café corner with leafy plants, timber tables and warm natural light" width="500" height="750" loading="lazy" decoding="async">
+            <figcaption><span>02 / THE SPACE</span><strong>Your corner of calm</strong></figcaption>
+          </figure>
+          <figure class="gallery-item gallery-item--latte" data-reveal>
+            <img src="images/gallery-latte-art.jpg" data-fallback="images/menu-latte.jpg" alt="A barista pouring delicate latte art into a dark ceramic cup" width="500" height="750" loading="lazy" decoding="async">
+            <figcaption><span>03 / THE POUR</span><strong>Made with a little care</strong></figcaption>
+          </figure>
+          <figure class="gallery-item gallery-item--pastries" data-reveal>
+            <img src="images/gallery-pastries.jpg" data-fallback="images/menu-croissant.jpg" alt="Freshly baked croissants and pastries on a marble counter" width="500" height="375" loading="lazy" decoding="async">
+            <figcaption><span>04 / FROM THE OVEN</span><strong>Golden, flaky, lovely</strong></figcaption>
+          </figure>
+        </div>
+        <p class="gallery-footnote">Fictional café concept · photographs include original generated imagery and licensed Pexels stock.</p>
+      </div>
+    </section>
+
+    <section class="visit-section section-pad" id="visit" aria-labelledby="visit-title">
+      <div class="shell">
+        <div class="section-heading visit-heading" data-reveal>
+          <div>
+            <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Come on over</p>
+            <h2 id="visit-title">Find your way<br><em>to a slower day.</em></h2>
+          </div>
+          <p class="visit-demo-banner"><span aria-hidden="true">✳</span> Fictional demo details: the sample address, opening hours and contact numbers below are not real business information.</p>
+        </div>
+
+        <div class="visit-grid">
+          <div class="map-column" data-reveal>
+            <div class="map-frame">
+              <div class="map-label"><span class="map-label-dot" aria-hidden="true"></span> BALLYGUNGE · DEMO MAP</div>
+              <svg class="demo-map" viewBox="0 0 760 460" role="img" aria-labelledby="map-title map-description" preserveAspectRatio="xMidYMid slice">
+                <title id="map-title">Illustrative map of a fictional café in Ballygunge, Kolkata</title>
+                <desc id="map-description">A decorative, not-to-scale map with a clearly marked fictional café pin. The address is for demonstration only.</desc>
+                <rect width="760" height="460" fill="#e8e4d7"/>
+                <path d="M0 62 176 0h118L0 111Zm466 0L648 0h112v55L560 112Zm-11 398 206-118h99v108H455Z" fill="#d9e0d1"/>
+                <path d="M-60 142 215 77l92 54-273 77Zm311-139 92 22-93 384-95-24Zm314 30 128 29-98 380-128-29ZM-40 349l250-58 32 68-249 58Z" fill="#d9e0d1" opacity=".78"/>
+                <path d="M-28 232C128 189 205 184 302 204s215 60 493 2M46 462c79-140 119-207 242-258S495 121 793 133M224-24c-10 114 14 198 72 254s144 95 220 238M524-40c-42 88-44 170-9 247s107 148 232 245" fill="none" stroke="#f8f5ec" stroke-width="24" stroke-linecap="round"/>
+                <path d="M-28 232C128 189 205 184 302 204s215 60 493 2M46 462c79-140 119-207 242-258S495 121 793 133M224-24c-10 114 14 198 72 254s144 95 220 238M524-40c-42 88-44 170-9 247s107 148 232 245" fill="none" stroke="#cec9b9" stroke-width="1.5" stroke-dasharray="2 8" stroke-linecap="round"/>
+                <path d="M382 187c0-25 20-45 45-45s45 20 45 45c0 34-45 82-45 82s-45-48-45-82Z" fill="#a65e48"/>
+                <circle cx="427" cy="187" r="14" fill="#f7f2e8"/>
+                <path d="M420 188h14m-7-7v14" stroke="#a65e48" stroke-width="2" stroke-linecap="round"/>
+                <rect x="479" y="157" width="154" height="41" rx="3" fill="#273f34"/>
+                <text x="493" y="174" fill="#d9b39a" font-size="9" font-family="Arial, sans-serif" letter-spacing="1.5">FICTIONAL PIN</text>
+                <text x="493" y="189" fill="#faf7f0" font-size="12" font-family="Arial, sans-serif">Monsoon &amp; Mug</text>
+                <text x="79" y="154" fill="#5e625a" font-size="10" font-family="Arial, sans-serif" letter-spacing="2">BALLYGUNGE</text>
+                <text x="89" y="319" fill="#5e625a" font-size="9" font-family="Arial, sans-serif" letter-spacing="1.7" transform="rotate(-13 89 319)">RAIN TREE LANE</text>
+                <text x="615" y="336" fill="#5e625a" font-size="9" font-family="Arial, sans-serif" letter-spacing="1.7" transform="rotate(14 615 336)">KOLKATA</text>
+                <circle cx="81" cy="83" r="4" fill="#b7c1ab"/><circle cx="702" cy="94" r="5" fill="#b7c1ab"/>
+                <circle cx="132" cy="405" r="4" fill="#b7c1ab"/><circle cx="686" cy="404" r="4" fill="#b7c1ab"/>
+              </svg>
+              <span class="map-note">Illustrative only · not to scale</span>
+            </div>
+            <a class="map-link" href="https://www.openstreetmap.org/search?query=Ballygunge%2C%20Kolkata" target="_blank" rel="noopener noreferrer">Open the neighbourhood map <span aria-hidden="true">↗</span></a>
+            <p class="map-disclaimer">Opens a general Ballygunge search. The street address and pin are fictional.</p>
+          </div>
+
+          <div class="visit-details" data-reveal>
+            <div class="visit-detail-block">
+              <span class="detail-label">Where to find us <span class="demo-chip">Sample</span></span>
+              <address>12A Rain Tree Lane<br>Ballygunge, Kolkata 700019</address>
+              <p class="detail-note">Fictional sample address</p>
+            </div>
+            <div class="visit-detail-block">
+              <span class="detail-label">When to drop by <span class="demo-chip">Sample</span></span>
+              <dl class="hours-list">
+                <div><dt>Monday – Friday</dt><dd>8:00 am – 7:00 pm</dd></div>
+                <div><dt>Saturday – Sunday</dt><dd>8:30 am – 8:00 pm</dd></div>
+              </dl>
+            </div>
+            <div class="visit-detail-block contact-block">
+              <span class="detail-label">Say hello <span class="demo-chip">Sample</span></span>
+              <a class="phone-link" href="tel:+910000000000">+91 00000 00000</a>
+              <p class="detail-note">Fictional demo phone number</p>
+              <a class="whatsapp-button" href="https://wa.me/910000000000?text=Hello%20Monsoon%20%26%20Mug" target="_blank" rel="noopener noreferrer" aria-label="Open the fictional WhatsApp demo placeholder">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.4 8.4 0 0 1-12.4 7.4L4 20l1-4a8.4 8.4 0 1 1 15.5-4.3Z"/><path d="M9 8.2c.2-.4.4-.4.6-.4h.4c.2 0 .3.1.4.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c-.2.2-.1.4 0 .6.4.7 1.1 1.3 1.8 1.7.2.1.4.2.6 0l.7-.8c.2-.2.4-.2.6-.1l1.5.7c.2.1.4.2.4.4 0 .3-.2 1.2-.8 1.5-.5.4-1.2.5-1.8.3-.6-.2-1.3-.4-2.3-1.1-1.4-1-2.3-2.2-2.7-3.1-.4-.9-.4-1.7-.1-2.3.2-.4.5-.7.6-.8Z"/></svg>
+                WhatsApp placeholder <span aria-hidden="true">↗</span>
+              </a>
+              <p class="detail-note whatsapp-note">Demo link only · not a live business contact</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-main">
+      <div class="footer-brand-column">
+        <a class="brand brand--footer" href="#home" aria-label="Monsoon and Mug home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M11 21h22v11a8 8 0 0 1-8 8h-6a8 8 0 0 1-8-8V21Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M33 24h3.5a5.5 5.5 0 0 1 0 11H33M17 15c-2-2.5 2-3.4 0-6m9 6c-2-2.5 2-3.4 0-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-copy"><span class="brand-name">Monsoon <span>&amp; Mug</span></span><span class="brand-meta">Slow mornings. Good coffee.</span></span>
+        </a>
+        <p>A fictional neighbourhood café concept, made for the love of a good cup and a little more time.</p>
+      </div>
+
+      <div class="footer-nav-column">
+        <h2 class="footer-heading">Wander around</h2>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home">Home</a><a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#gallery">Gallery</a><a href="#visit">Visit Us</a>
+        </nav>
+      </div>
+
+      <div class="footer-hours-column">
+        <h2 class="footer-heading">Sample hours</h2>
+        <p>Mon – Fri <span>8:00 am – 7:00 pm</span></p>
+        <p>Sat – Sun <span>8:30 am – 8:00 pm</span></p>
+        <small>Fictional demo information</small>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <p>© <span id="current-year">2026</span> Monsoon &amp; Mug · A fictional café concept.</p>
+      <p>All menu prices, address, hours and contact details shown are sample placeholders.</p>
+      <a href="#home" class="back-to-top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
